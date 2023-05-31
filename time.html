@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script type="text/javascript" src="time.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <style>
+        .lcircle{
+            background-image: url("https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/z5mlztk3cdfll5bl_1623398616.jpeg");
+        }
+        body{
+            background-color: #4B006E;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="lcircle">
+            <legend>Time Converter</legend>
+        </div>
+        <div class="main">
+        <div>
+            <input type="text" id="input" placeholder="Enter Input:"/>
+            <select id="input1">
+                <option value="Second">Second</option>
+                <option value="Millisecond">Millisecond</option>
+                <option value="Microsecond">Microsecond</option>
+                <option value="Minute">Minute</option>
+                <option value="Hour">Hour</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" id="result"  placeholder="Result" disabled />
+            <select id="result1" >
+                <option value="Second">Second</option>
+                <option value="Millisecond">Millisecond</option>
+                <option value="Microsecond">Microsecond</option>
+                <option value="Minute">Minute</option>
+                <option value="Hour">Hour</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="button" value="submit" onclick="fun()">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

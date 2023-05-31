@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script type="text/javascript" src="length.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <style>
+        .lcircle{
+            background-image:url("https://t4.ftcdn.net/jpg/01/92/17/87/360_F_192178736_IlFl9xi1Uxo03aXduQWV3MyoVO9rIQ8R.jpg");
+            color:white;
+        }
+        body{
+            background-color:#5b163e;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="lcircle">
+            <legend>Length Converter</legend>
+        </div>
+        <div class="main">
+        <div>
+            <input type="text" id="input" placeholder="Enter Input:"/>
+            <select id="input1">
+                <option value="Meter">Meter</option>
+                <option value="Centimeter">Centimeter</option>
+                <option value="Kilometer">Kilometer</option>
+                <option value="Foot">Foot</option>
+                <option value="Inch">Inch</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" id="result"  placeholder="Result" disabled />
+            <select id="result1" >
+                <option value="Meter">Meter</option>
+                <option value="Centimeter">Centimeter</option>
+                <option value="Kilometer">Kilometer</option>
+                <option value="Foot">Foot</option>
+                <option value="Inch">Inch</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="button" value="submit" onclick="fun()">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

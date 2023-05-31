@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script type="text/javascript" src="temp.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <style>
+        .lcircle{
+            background-image: url("https://t3.ftcdn.net/jpg/05/23/88/36/360_F_523883637_GVgx7wy9omeOwb2X50Q3j5AEEnuY6r3L.jpg");
+        }
+        body{
+            background-color: #006666;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="lcircle">
+            <legend>Temperature <br>Converter</legend>
+        </div>
+        <div class="main">
+        <div>
+            <input type="text" id="input" placeholder="Enter Input:"/>
+            <select id="input1">
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" id="result"  placeholder="Result" disabled />
+            <select id="result1" >
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="button" value="submit" onclick="fun()">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

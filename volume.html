@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script type="text/javascript" src="volume.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <style>
+        .lcircle{
+            background-image: url("https://images.hindustantimes.com/img/2022/11/26/550x309/Instagram_Viral_Video_Black_Hole_Nasa_1669442216110_1669442229780_1669442229780.PNG");
+            color: white;
+        }
+        body{
+            background-color: #1a0000;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="lcircle">
+            <legend>Volume Converter</legend>
+        </div>
+        <div class="main">
+        <div>
+            <input type="text" id="input" placeholder="Enter Input:"/>
+            <select id="input1">
+                <option value="CubicMeter">CubicMeter</option>
+                <option value="CubicCentimeter">CubicCentimeter</option>
+                <option value="CubicKilometer">CubicKilometer</option>
+                <option value="CubicFoot">CubicFoot</option>
+                <option value="CubicInch">CubicInch</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" id="result"  placeholder="Result" disabled />
+            <select id="result1" >
+                <option value="CubicMeter">CubicMeter</option>
+                <option value="CubicCentimeter">CubicCentimeter</option>
+                <option value="CubicKilometer">CubicKilometer</option>
+                <option value="CubicFoot">CubicFoot</option>
+                <option value="CubicInch">CubicInch</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="button" value="submit" onclick="fun()">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

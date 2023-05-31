@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script type="text/javascript" src="area.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <style>
+        .lcircle{
+            background-image: url("https://www.shutterstock.com/image-photo/high-definition-star-field-colorful-260nw-1035911233.jpg");
+        }
+        body{
+            background-color: #1E3F66;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="lcircle">
+            <legend>Area Converter</legend>
+        </div>
+        <div class="main">
+        <div>
+            <input type="text" id="input" placeholder="Enter Input:"/>
+            <select id="input1">
+                <option value="SquareMeter">SquareMeter</option>
+                <option value="SquareCentimeter">SquareCentimeter</option>
+                <option value="SquareKilometer">SquareKilometer</option>
+                <option value="SquareFoot">SquareFoot</option>
+                <option value="SquareInch">SquareInch</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" id="result"  placeholder="Result" disabled />
+            <select id="result1" >
+                <option value="SquareMeter">SquareMeter</option>
+                <option value="SquareCentimeter">SquareCentimeter</option>
+                <option value="SquareKilometer">SquareKilometer</option>
+                <option value="SquareFoot">SquareFoot</option>
+                <option value="SquareInch">SquareInch</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="button" value="submit" onclick="fun()">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

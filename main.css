@@ -1,0 +1,108 @@
+.main{
+    width: 90vw;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/jfkAU4tM8XMUAPZDm4h5Nh-1200-80.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+	text-decoration: none;
+}
+  
+.lcircle{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 170px;
+	height: 170px;
+	background-color: #245064;
+	border-radius: 50%;
+	font-size:4vh;
+	font-weight: bold;
+	color: white;
+	box-shadow: 2px 2px 4px 2px #f9345d;
+}
+.scircle1{
+    position: absolute;
+	top: 50%;
+	left: 0900px;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+    font-size: 20px;
+	background-color: #F5F5DC;
+	border-radius: 50%;
+	font-size:3vh;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px #F4C2C2;
+}
+.scircle2{
+    position: absolute;
+	top: 35%;
+	left: 850px;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+    font-size: 20px;
+	background-color: #F5F5DC;
+	border-radius: 50%;
+	font-size:2vh;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px #F4C2C2;
+}
+.scircle3{
+    position: absolute;
+	top: 35%;
+	left: 700px;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+    font-size: 20px;
+	background-color: #F5F5DC;
+	border-radius: 50%;
+	font-size:3vh;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px #F4C2C2;
+}
+.scircle4{
+    position: absolute;
+	top: 48%;
+	left: 630px;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+    font-size: 20px;
+	background-color: #F5F5DC;
+	border-radius: 50%;
+	font-size:3vh;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px #F4C2C2;
+}
+.scircle5{
+    position: absolute;
+	top: 65%;
+	left: 700px;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+    font-size: 20px;
+	background-color: #F5F5DC;
+	border-radius: 50%;
+	font-size:3vh;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px #F4C2C2;
+}
+.scircle6{
+    position: absolute;
+	top: 65%;
+	left: 850px;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+    font-size: 20px;
+	background-color: #F5F5DC;
+	border-radius: 50%;
+	font-size:3vh;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px #F4C2C2;
+}

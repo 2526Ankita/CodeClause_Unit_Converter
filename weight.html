@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script type="text/javascript" src="weight.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css"/>
+    <style>
+        .lcircle{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlWTBo9hXq3QXoIBCls24BlgRL893GbwOtJwd5lOvov5n_YGN2xa_RAkSIRw3j3YAoPU&usqp=CAU");
+            color: white;
+        }
+        body{
+            background-color: #101D6B;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="lcircle">
+            <legend>Weight Converter</legend>
+        </div>
+        <div class="main">
+        <div>
+            <input type="text" id="input" placeholder="Enter Input:"/>
+            <select id="input1">
+                <option value="Kilogram">Kilogram</option>
+                <option value="Gram">Gram</option>
+                <option value="Milligram">Milligram</option>
+                <option value="Pound">Pound</option>
+                <option value="Carrat">Carrat</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" id="result"  placeholder="Result" disabled />
+            <select id="result1" >
+                <option value="Kilogram">Kilogram</option>
+                <option value="Gram">Gram</option>
+                <option value="Milligram">Milligram</option>
+                <option value="Pound">Pound</option>
+                <option value="Carrat">Carrat</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" id="button" value="submit" onclick="fun()">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.lcircle{
+    position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 500px;
+	width: 1000px;
+	border-radius: 500px 500px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 35vw;
+    height: 5vh;
+    top: 60vh;
+	left: 40vw;
+    position:absolute;
+
+}
+#input{
+     background-color:azure;
+     height: 5vh;
+    margin:5px 5px 5px 5px;
+    color: red;
+    font-weight: bold;
+}
+#input1{
+    background-color:azure;
+    height: 5vh;
+    margin:5px 5px 5px 5px;
+    color: red;
+    font-weight: bold;
+}
+#result{
+    background-color:azure;
+    height: 5vh;
+    margin:5px 5px 5px 5px;
+    color: green;
+    font-weight: bold;
+}
+#result1{
+   background-color:azure;
+   height: 5vh;
+   margin:5px 5px 5px 5px;
+   color: green;
+    font-weight: bold;
+}
+#button{
+    background-color:azure;
+   height: 5vh;
+   width: 5vw;
+   margin:5px 5px 5px 5px;
+   font-size: 10px;
+    font-family: Algerian;
+    font-weight: bold;
+}
+legend{
+    font-size: 30px;
+    font-family: Algerian;
+    font-weight: bold;
+}
